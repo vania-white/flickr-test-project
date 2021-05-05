@@ -1,1 +1,1 @@
-- [DEMO](https://vania-white.github.io/flickr-test-project/)
+- [DEMO](https://app-flickr.herokuapp.com/)
