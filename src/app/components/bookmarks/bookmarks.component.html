@@ -1,0 +1,7 @@
+<div class="grid-container">
+  <mat-grid-list cols="3" rowHeight="700px" [gutterSize]="'20px'">
+    <mat-grid-tile *ngFor="let photo of photos">
+      <app-bookmark-photo [photo]="photo" (onRemove)="onRemove($event)"></app-bookmark-photo>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

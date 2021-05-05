@@ -1,0 +1,13 @@
+<mat-card *ngIf="photo">
+  <img mat-card-image
+    src="https://farm{{photo.farm}}.staticflickr.com/{{photo.server}}/{{photo.id}}_{{photo.secret}}.jpg"
+    alt="{{photo.title}}" />
+  
+  <mat-card-actions>
+    <button mat-raised-button (click)="emit()">Remove it</button>
+  </mat-card-actions>
+
+  <mat-card-title>
+    <span>{{photo.title}}</span>
+  </mat-card-title>
+</mat-card>
